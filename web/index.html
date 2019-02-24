@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+     <head>
+        <meta charset="utf-8">
+        <title>Lab2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/css/components.css">
+        <link rel="stylesheet" href="Style/css/icons.css">
+        <link rel="stylesheet" href="Style/css/responsee.css">
+    </head>
+    <body>
+        
+        <form class="customform" action="./zeszyty">
+            <br/>
+        <br/>
+            <div class="s-12 m-5 l-2 center"><button type="submit">Wyświetl zeszyty</button></div>
+        </form>
+        <form id="addForm" class="customform" action="./dodaj">        
+            <table>
+               <tr>
+        
+           <td>Nazwa zeszytu<input type="text" name="name" form="addForm" /></td>
+           <td>Liczba stron<input type="number" name="pages" form="addForm" /></td>
+           <td>Numeracja stron<br/><input type="checkbox" name="numeration" form="addForm" value="true"/></td>
+           <tr>
+        
+    </tr>
+</table>
+         <div class="s-12 m-5 l-2 right"><button type="submit">Dodaj</button></div>   
+            
+            
+        </form>
+        <form class="customform" action="./historia">         
+            <div class="s-12 m-5 l-2 left"><button type="submit">Historia operacji</button></div>
+        </form>
+    </body>
+</html>
